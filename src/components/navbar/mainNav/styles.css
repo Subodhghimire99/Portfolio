@@ -1,0 +1,30 @@
+@keyframes fadeInSlide{
+    0%{
+        transform: translateX(40px);
+        opacity: 0;
+    }
+    70%{
+        transform:translateX(-10px);
+    }
+    100%{
+        transfrom:translateX(0px);
+        opacity:1;
+    }
+
+}
+
+.nav-section1{
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.2s;
+}
+.nav-section2{
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.4s;
+}
+.nav-section3{
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.6s;
+}
+.nav-section4{
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.8s;
+}
+.nav-section5{
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 2s;
+}
