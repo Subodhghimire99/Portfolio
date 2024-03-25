@@ -20,9 +20,21 @@ const config: Config = {
         primary: "hsl(var(--foreground))",
         card:"hsl(var(--card-background))",
         cardPrimary:"hsl(var(--card-primary))",
+      },
+      fontSize: {
+         base: "14px",
+        "title1": "25px",
+        "title2": "19px",
+        "title3": "17px",
+        "largeTitle":"31px",
+        "caption2": "11px",
+        "footnote": "12px",
+        "headLine": "14px",
       }
     },
   },
-  plugins: [],
+  plugins: [
+     require('tailwind-scrollbar'),
+  ],
 };
 export default config;

@@ -14,17 +14,17 @@
 }
 
 .nav-section1{
-        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.2s;
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 0.5s;
 }
 .nav-section2{
-        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.4s;
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 0.6s;
 }
 .nav-section3{
-        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.6s;
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 0.7s;
 }
 .nav-section4{
-        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 1.8s;
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 0.8s;
 }
 .nav-section5{
-        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 2s;
+        animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 0.9s;
 }

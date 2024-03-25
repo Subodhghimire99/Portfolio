@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 import "./styles.css";
-import Navbar from '@/components/navbar';
+import Navbar from "@/components/navbar";
+import Carrer from "@/components/carrer";
+import AboutMe from "@/components/aboutme";
 
-const HomePage = ()=>{
-    return(
+const HomePage = () => {
+  return (
     <div>
-      <Navbar/>
+      <Navbar />
+      <AboutMe />
+      <Carrer />
     </div>
-    )
-}
+  );
+};
 
 export default HomePage;

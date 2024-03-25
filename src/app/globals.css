@@ -5,7 +5,7 @@
 :root {
     --background: 0,0%,0%;
     --foreground: 0,0%,89.8%;
-    --card-background:0,0%,7.06%;
+    --card-background:240, 3%, 11%;
     --card-primary:0,0%,89.8%;  
 }
 
@@ -16,7 +16,63 @@
   }
 } */
 
+
+/* Apple dark mode 1st
+background -- #000000
+foreground1 -- #FFFFFF
+foreground2 -- #8D8D93
+foreground3 -- #47474A
+foreground4 -- #2A2A2C
+Apple dark mode 2nd
+background -- #1C1C1E
+foreground1 -- #FFFFFF
+foreground2 -- #989899
+foreground3 -- #5A5A5E
+foreground4 -- #404044
+Apple Light mode 
+background -- #FFFFFF
+foreground1 -- #000000
+foreground2 -- #8A8A8E
+foreground3 -- #C4C4C6
+foreground4 -- #DCDCDD */
+
+
 body {
   color: hsl(var(--foreground));
   background: hsl(var(--background));
+  scroll-behavior:smooth;
+}
+*{
+  @apply scrollbar-thin scrollbar-track-card scrollbar-thumb-[#5A5A5E]
+}
+
+
+/* animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInSlide {
+  0% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+
+  60% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transfrom: translateX(0px);
+    opacity: 1;
+  }
+
 }

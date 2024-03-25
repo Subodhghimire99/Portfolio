@@ -1,0 +1,30 @@
+@keyframes dividerAnimationEven{
+    0%{
+        transform: translateX(50%);
+        transform:rotateZ(-5deg);
+        opacity: 0.3;
+    }
+    100%{
+        transform: translateX(0);
+        transform: rotateZ(0deg);
+        opacity:1;
+    }
+}
+
+@keyframes dividerAnimationOdd {
+    0% {
+        transform: translateX(50%);
+        opacity: 0.3;
+    }
+    100%{
+        transform: translateX(100%);
+        opacity: 1;
+    }
+}
+
+.odd{
+    animation: 0.5s linear dividerAnimationOdd;
+}
+.even{
+    animation: 0.5s linear dividerAnimationEven;
+}

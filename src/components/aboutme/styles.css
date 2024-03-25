@@ -1,0 +1,7 @@
+
+.greeting{
+    animation:cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeIn 0.5s;
+}
+.aboutMe {
+    animation: cubic-bezier(0.2, 0.51, 0.66, 1.14) fadeInSlide 0.5s;
+}
